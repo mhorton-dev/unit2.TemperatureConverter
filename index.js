@@ -36,9 +36,3 @@ main.innerHTML+=(`${describeTemperature(convertToCelsius(39))}</br>`);
 main.innerHTML+=(`${describeTemperature(convertToCelsius(69))}</br>`);
 main.innerHTML+=(`${describeTemperature(convertToCelsius(89))}</br>`);
 main.innerHTML+=(`${describeTemperature(convertToCelsius(109))}</br>`);
-
-console.log(describeTemperature(convertToCelsius(-1))); // 0.00C&deg - It's very cold!
-console.log(describeTemperature(convertToCelsius(19))); // 0.00C&deg - It's cold.
-console.log(describeTemperature(convertToCelsius(59))); // 0.00C&deg - It's warm.
-console.log(describeTemperature(convertToCelsius(59))); // 0.00C&deg - It's hot!
-console.log(describeTemperature(convertToCelsius(79))); // 0.00C&deg - It's very hot!
